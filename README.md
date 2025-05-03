@@ -31,6 +31,8 @@ npm start
 
 ```
 
+
+
 ## 🚀 Usage
 Open http://localhost:3000 in your browser.
 
@@ -42,18 +44,8 @@ Use the theme toggle button (🌞/🌙) to switch between light and dark themes.
 
 All changes are automatically saved in Local Storage.
 
-## 📁 Folder Structure
 
-taskmate/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   ├── App.js
-│   ├── index.js
-│   └── styles/
-├── README.md
-└── package.json
+
 
 ## 🌟 Icons Used
 Here are the icons used in this project from react-icons:
@@ -65,6 +57,10 @@ Here are the icons used in this project from react-icons:
 🗑️ Delete Task – RiDeleteBin6Line from react-icons/ri
 
 🌙 / 🌞 Theme Toggle – BsFillMoonStarsFill / BsSunFill from react-icons/bs
+
+
+
+
 
 ## 🧠 Future Enhancements
 🔍 Task search and filter
