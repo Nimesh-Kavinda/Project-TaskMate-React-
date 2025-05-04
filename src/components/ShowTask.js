@@ -1,10 +1,10 @@
-export const ShowTask = () => {
+export const ShowTask = ({tasklist, setTasklist}) => {
 
-    const tasks = [
-        {id : 10001, name : "Task A", time : "2:09:01 AM 9/24/2030"},
-        {id : 10002, name : "Task B", time : "3:09:01 AM 10/24/2030"},
-        {id : 10003, name : "Task C", time : "4:09:01 AM 11/24/2030"}
-    ];
+    // const tasks = [
+    //     {id : 10001, name : "Task A", time : "2:09:01 AM 9/24/2030"},
+    //     {id : 10002, name : "Task B", time : "3:09:01 AM 10/24/2030"},
+    //     {id : 10003, name : "Task C", time : "4:09:01 AM 11/24/2030"}
+    // ];
 
 
   return (
@@ -20,7 +20,7 @@ export const ShowTask = () => {
 
     <ul>
       
-        { tasks.map((task) => (
+        { tasklist.map((task) => (
             <li>
             <p>
                 <span className="name">{task.name}</span>
