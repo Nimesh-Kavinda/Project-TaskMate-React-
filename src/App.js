@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 function App() {
 
- const [tasklist, setTasklist] = useState[{}];
+ const [tasklist, setTasklist] = useState([]);
 
   return (
     <div className="App">
