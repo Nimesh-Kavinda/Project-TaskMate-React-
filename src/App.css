@@ -201,4 +201,7 @@ header .themeSelector .activeTheme{
   .showTask li{
     width: 100%;
   }
+  .App{
+    width: 100%;
+  }
 }
