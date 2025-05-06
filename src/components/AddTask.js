@@ -11,7 +11,7 @@ export const AddTask = ({tasklist, setTasklist, task, setTask}) => {
       setTasklist(updateTasklist);
     } else 
     {
-      const date = new Date();
+      const date = new Date(); 
 
       const newTask = {
         id : date.getTime(),
